@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		962B9F5C23C79B8B00B8CF91 /* Mini reto.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "Mini reto.playground"; path = "../Mini reto.playground"; sourceTree = "<group>"; };
+		962B9F5D23C79C0100B8CF91 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		963659A023C5094C00B32E27 /* Example 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		963659A323C5094C00B32E27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		963659A523C5094C00B32E27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +50,6 @@
 		963659C123C5094F00B32E27 /* Example 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Example 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		963659C523C5094F00B32E27 /* Example_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_1UITests.swift; sourceTree = "<group>"; };
 		963659C723C5094F00B32E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		969FE42C23C790430064C2C0 /* Mini reto.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "Mini reto.playground"; path = "../../Mini reto.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +80,11 @@
 		9636599723C5094C00B32E27 = {
 			isa = PBXGroup;
 			children = (
+				962B9F5D23C79C0100B8CF91 /* MyPlayground.playground */,
 				963659A223C5094C00B32E27 /* Example 1 */,
 				963659B923C5094F00B32E27 /* Example 1Tests */,
 				963659C423C5094F00B32E27 /* Example 1UITests */,
 				963659A123C5094C00B32E27 /* Products */,
-				962B9F5C23C79B8B00B8CF91 /* Mini reto.playground */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,7 +104,6 @@
 				963659A323C5094C00B32E27 /* AppDelegate.swift */,
 				963659A523C5094C00B32E27 /* SceneDelegate.swift */,
 				963659A723C5094C00B32E27 /* ContentView.swift */,
-				969FE42C23C790430064C2C0 /* Mini reto.playground */,
 				963659A923C5094E00B32E27 /* Assets.xcassets */,
 				963659AE23C5094E00B32E27 /* LaunchScreen.storyboard */,
 				963659B123C5094E00B32E27 /* Info.plist */,
