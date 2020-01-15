@@ -50,6 +50,7 @@
 		963659C123C5094F00B32E27 /* Example 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Example 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		963659C523C5094F00B32E27 /* Example_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_1UITests.swift; sourceTree = "<group>"; };
 		963659C723C5094F00B32E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96724A8123CFC9500071D546 /* automovil.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = automovil.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,7 @@
 		963659A223C5094C00B32E27 /* Example 1 */ = {
 			isa = PBXGroup;
 			children = (
+				96724A8123CFC9500071D546 /* automovil.playground */,
 				963659A323C5094C00B32E27 /* AppDelegate.swift */,
 				963659A523C5094C00B32E27 /* SceneDelegate.swift */,
 				963659A723C5094C00B32E27 /* ContentView.swift */,
