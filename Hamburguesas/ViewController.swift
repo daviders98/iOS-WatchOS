@@ -28,7 +28,6 @@ class ViewController: UIViewController {
     }
     
     @IBOutlet weak var PaisTexto: UILabel!
-    //Es una variable local
     @IBOutlet weak var Hamburguesa: UILabel!
     
     override func viewDidLoad() {
