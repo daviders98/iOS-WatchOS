@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		964B8F5623E62E8D00AF6C89 /* Masa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964B8F5523E62E8D00AF6C89 /* Masa.swift */; };
+		964B8F5823E6569100AF6C89 /* Queso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964B8F5723E6569100AF6C89 /* Queso.swift */; };
 		96E0979923D91E0600BC09ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E0979823D91E0600BC09ED /* AppDelegate.swift */; };
 		96E0979B23D91E0600BC09ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E0979A23D91E0600BC09ED /* SceneDelegate.swift */; };
 		96E0979D23D91E0600BC09ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E0979C23D91E0600BC09ED /* ViewController.swift */; };
 		96E097A023D91E0600BC09ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E0979E23D91E0600BC09ED /* Main.storyboard */; };
 		96E097A223D91E0900BC09ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E097A123D91E0900BC09ED /* Assets.xcassets */; };
 		96E097A523D91E0900BC09ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E097A323D91E0900BC09ED /* LaunchScreen.storyboard */; };
+		96F0CC7723E72B7200966758 /* CantidadIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F0CC7623E72B7200966758 /* CantidadIngredientes.swift */; };
+		96F0CC7923E7317300966758 /* Ingredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F0CC7823E7317300966758 /* Ingredientes.swift */; };
+		96F0CC7B23EB661900966758 /* Confirmacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F0CC7A23EB661900966758 /* Confirmacion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		964B8F5523E62E8D00AF6C89 /* Masa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Masa.swift; sourceTree = "<group>"; };
+		964B8F5723E6569100AF6C89 /* Queso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queso.swift; sourceTree = "<group>"; };
 		96E0979523D91E0600BC09ED /* Pizza assembly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pizza assembly.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E0979823D91E0600BC09ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96E0979A23D91E0600BC09ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		96E097A123D91E0900BC09ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96E097A423D91E0900BC09ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96E097A623D91E0900BC09ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96F0CC7623E72B7200966758 /* CantidadIngredientes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CantidadIngredientes.swift; sourceTree = "<group>"; };
+		96F0CC7823E7317300966758 /* Ingredientes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredientes.swift; sourceTree = "<group>"; };
+		96F0CC7A23EB661900966758 /* Confirmacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Confirmacion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				96E097A123D91E0900BC09ED /* Assets.xcassets */,
 				96E097A323D91E0900BC09ED /* LaunchScreen.storyboard */,
 				96E097A623D91E0900BC09ED /* Info.plist */,
+				964B8F5523E62E8D00AF6C89 /* Masa.swift */,
+				964B8F5723E6569100AF6C89 /* Queso.swift */,
+				96F0CC7623E72B7200966758 /* CantidadIngredientes.swift */,
+				96F0CC7823E7317300966758 /* Ingredientes.swift */,
+				96F0CC7A23EB661900966758 /* Confirmacion.swift */,
 			);
 			path = "Pizza assembly";
 			sourceTree = "<group>";
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				964B8F5823E6569100AF6C89 /* Queso.swift in Sources */,
 				96E0979D23D91E0600BC09ED /* ViewController.swift in Sources */,
+				96F0CC7723E72B7200966758 /* CantidadIngredientes.swift in Sources */,
 				96E0979923D91E0600BC09ED /* AppDelegate.swift in Sources */,
+				96F0CC7923E7317300966758 /* Ingredientes.swift in Sources */,
+				96F0CC7B23EB661900966758 /* Confirmacion.swift in Sources */,
 				96E0979B23D91E0600BC09ED /* SceneDelegate.swift in Sources */,
+				964B8F5623E62E8D00AF6C89 /* Masa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
