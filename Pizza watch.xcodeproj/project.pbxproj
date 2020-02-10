@@ -15,6 +15,18 @@
 		962C3DD823EF411100F2127D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C3DD723EF411100F2127D /* ExtensionDelegate.swift */; };
 		962C3DDA23EF411100F2127D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C3DD923EF411100F2127D /* NotificationController.swift */; };
 		962C3DDC23EF411300F2127D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 962C3DDB23EF411300F2127D /* Assets.xcassets */; };
+		962C3DED23EF476200F2127D /* pizzeria.png in Resources */ = {isa = PBXBuildFile; fileRef = 962C3DEC23EF476200F2127D /* pizzeria.png */; };
+		962C3DF123EF801100F2127D /* VistaTamano.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C3DF023EF801100F2127D /* VistaTamano.swift */; };
+		962C3DF323EF8F7E00F2127D /* ValorTamaño.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C3DF223EF8F7E00F2127D /* ValorTamaño.swift */; };
+		962C3DF523EF916B00F2127D /* VistaMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C3DF423EF916B00F2127D /* VistaMasa.swift */; };
+		962C3DF723EF9D2A00F2127D /* ValorMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C3DF623EF9D2A00F2127D /* ValorMasa.swift */; };
+		962C3DF923EFB12B00F2127D /* VistaQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C3DF823EFB12B00F2127D /* VistaQueso.swift */; };
+		962C3DFB23F06A8100F2127D /* ValorQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C3DFA23F06A8100F2127D /* ValorQueso.swift */; };
+		962C3DFD23F06C8600F2127D /* VistaIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C3DFC23F06C8600F2127D /* VistaIngredientes.swift */; };
+		962C3DFF23F081B800F2127D /* VistaElegirIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C3DFE23F081B800F2127D /* VistaElegirIngredientes.swift */; };
+		962C3E0123F0820700F2127D /* ValorNumIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C3E0023F0820700F2127D /* ValorNumIngredientes.swift */; };
+		962C3E0323F0D8BB00F2127D /* ValorElegirIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C3E0223F0D8BB00F2127D /* ValorElegirIngredientes.swift */; };
+		962C3E0523F0DEF500F2127D /* VistaConfirmacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C3E0423F0DEF500F2127D /* VistaConfirmacion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +84,18 @@
 		962C3DDB23EF411300F2127D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		962C3DDD23EF411300F2127D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		962C3DDE23EF411300F2127D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		962C3DEC23EF476200F2127D /* pizzeria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizzeria.png; sourceTree = "<group>"; };
+		962C3DF023EF801100F2127D /* VistaTamano.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaTamano.swift; sourceTree = "<group>"; };
+		962C3DF223EF8F7E00F2127D /* ValorTamaño.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ValorTamaño.swift"; sourceTree = "<group>"; };
+		962C3DF423EF916B00F2127D /* VistaMasa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaMasa.swift; sourceTree = "<group>"; };
+		962C3DF623EF9D2A00F2127D /* ValorMasa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValorMasa.swift; sourceTree = "<group>"; };
+		962C3DF823EFB12B00F2127D /* VistaQueso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaQueso.swift; sourceTree = "<group>"; };
+		962C3DFA23F06A8100F2127D /* ValorQueso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValorQueso.swift; sourceTree = "<group>"; };
+		962C3DFC23F06C8600F2127D /* VistaIngredientes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaIngredientes.swift; sourceTree = "<group>"; };
+		962C3DFE23F081B800F2127D /* VistaElegirIngredientes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaElegirIngredientes.swift; sourceTree = "<group>"; };
+		962C3E0023F0820700F2127D /* ValorNumIngredientes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValorNumIngredientes.swift; sourceTree = "<group>"; };
+		962C3E0223F0D8BB00F2127D /* ValorElegirIngredientes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValorElegirIngredientes.swift; sourceTree = "<group>"; };
+		962C3E0423F0DEF500F2127D /* VistaConfirmacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaConfirmacion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +131,7 @@
 		962C3DC523EF410E00F2127D /* Pizza watch WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				962C3DEC23EF476200F2127D /* pizzeria.png */,
 				962C3DC623EF410E00F2127D /* Interface.storyboard */,
 				962C3DC923EF411100F2127D /* Assets.xcassets */,
 				962C3DCB23EF411100F2127D /* Info.plist */,
@@ -123,6 +148,17 @@
 				962C3DDB23EF411300F2127D /* Assets.xcassets */,
 				962C3DDD23EF411300F2127D /* Info.plist */,
 				962C3DDE23EF411300F2127D /* PushNotificationPayload.apns */,
+				962C3DF023EF801100F2127D /* VistaTamano.swift */,
+				962C3DF223EF8F7E00F2127D /* ValorTamaño.swift */,
+				962C3DF423EF916B00F2127D /* VistaMasa.swift */,
+				962C3DF623EF9D2A00F2127D /* ValorMasa.swift */,
+				962C3DF823EFB12B00F2127D /* VistaQueso.swift */,
+				962C3DFA23F06A8100F2127D /* ValorQueso.swift */,
+				962C3DFC23F06C8600F2127D /* VistaIngredientes.swift */,
+				962C3DFE23F081B800F2127D /* VistaElegirIngredientes.swift */,
+				962C3E0023F0820700F2127D /* ValorNumIngredientes.swift */,
+				962C3E0223F0D8BB00F2127D /* ValorElegirIngredientes.swift */,
+				962C3E0423F0DEF500F2127D /* VistaConfirmacion.swift */,
 			);
 			path = "Pizza watch WatchKit Extension";
 			sourceTree = "<group>";
@@ -236,6 +272,7 @@
 			files = (
 				962C3DCA23EF411100F2127D /* Assets.xcassets in Resources */,
 				962C3DC823EF410E00F2127D /* Interface.storyboard in Resources */,
+				962C3DED23EF476200F2127D /* pizzeria.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +291,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				962C3DFB23F06A8100F2127D /* ValorQueso.swift in Sources */,
+				962C3E0523F0DEF500F2127D /* VistaConfirmacion.swift in Sources */,
 				962C3DDA23EF411100F2127D /* NotificationController.swift in Sources */,
+				962C3E0123F0820700F2127D /* ValorNumIngredientes.swift in Sources */,
+				962C3DFD23F06C8600F2127D /* VistaIngredientes.swift in Sources */,
+				962C3DF523EF916B00F2127D /* VistaMasa.swift in Sources */,
+				962C3DF323EF8F7E00F2127D /* ValorTamaño.swift in Sources */,
+				962C3E0323F0D8BB00F2127D /* ValorElegirIngredientes.swift in Sources */,
 				962C3DD823EF411100F2127D /* ExtensionDelegate.swift in Sources */,
+				962C3DF723EF9D2A00F2127D /* ValorMasa.swift in Sources */,
 				962C3DD623EF411100F2127D /* InterfaceController.swift in Sources */,
+				962C3DFF23F081B800F2127D /* VistaElegirIngredientes.swift in Sources */,
+				962C3DF123EF801100F2127D /* VistaTamano.swift in Sources */,
+				962C3DF923EFB12B00F2127D /* VistaQueso.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
