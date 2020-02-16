@@ -13,6 +13,7 @@
 		9650CAB323F4822000513A28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9650CAB123F4822000513A28 /* Main.storyboard */; };
 		9650CAB523F4822200513A28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9650CAB423F4822200513A28 /* Assets.xcassets */; };
 		9650CAB823F4822200513A28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9650CAB623F4822200513A28 /* LaunchScreen.storyboard */; };
+		9650CAC223F4A1C700513A28 /* libro.png in Resources */ = {isa = PBXBuildFile; fileRef = 9650CAC123F4A1C700513A28 /* libro.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9650CAB423F4822200513A28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9650CAB723F4822200513A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9650CAB923F4822200513A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9650CAC123F4A1C700513A28 /* libro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = libro.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				9650CAAF23F4822000513A28 /* ViewController.swift */,
 				9650CAB123F4822000513A28 /* Main.storyboard */,
 				9650CAB423F4822200513A28 /* Assets.xcassets */,
+				9650CAC123F4A1C700513A28 /* libro.png */,
 				9650CAB623F4822200513A28 /* LaunchScreen.storyboard */,
 				9650CAB923F4822200513A28 /* Info.plist */,
 			);
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9650CAC223F4A1C700513A28 /* libro.png in Resources */,
 				9650CAB823F4822200513A28 /* LaunchScreen.storyboard in Resources */,
 				9650CAB523F4822200513A28 /* Assets.xcassets in Resources */,
 				9650CAB323F4822000513A28 /* Main.storyboard in Resources */,

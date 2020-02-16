@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,67 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Book_requests" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="WDd-PI-tPQ">
+                                <rect key="frame" x="87" y="86" width="240" height="229.5"/>
+                            </imageView>
+                            <searchBar contentMode="scaleToFill" text="" translatesAutoresizingMaskIntoConstraints="NO" id="XSN-OS-ha7">
+                                <rect key="frame" x="0.0" y="350" width="414" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <scopeButtonTitles>
+                                    <string>Title</string>
+                                    <string>Title</string>
+                                </scopeButtonTitles>
+                            </searchBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text=" " textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6As-GZ-9g8">
+                                <rect key="frame" x="20" y="426" width="374" height="419"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inserta el ISBN del libro BB" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o6k-20-WnL">
+                                <rect key="frame" x="105" y="294" width="204" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Usc-rY-Ive"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6As-GZ-9g8" firstAttribute="top" secondItem="XSN-OS-ha7" secondAttribute="bottom" constant="20" id="1YE-ak-hsz"/>
+                            <constraint firstItem="WDd-PI-tPQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="42" id="1gS-6V-ndH"/>
+                            <constraint firstItem="XSN-OS-ha7" firstAttribute="centerX" secondItem="o6k-20-WnL" secondAttribute="centerX" id="8ho-9V-I33"/>
+                            <constraint firstItem="WDd-PI-tPQ" firstAttribute="centerX" secondItem="o6k-20-WnL" secondAttribute="centerX" id="9ZB-7U-vxl"/>
+                            <constraint firstItem="XSN-OS-ha7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BFn-ws-sL8"/>
+                            <constraint firstItem="WDd-PI-tPQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="HbS-1W-2rI"/>
+                            <constraint firstItem="6As-GZ-9g8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ONZ-p9-8Yx"/>
+                            <constraint firstItem="XSN-OS-ha7" firstAttribute="top" secondItem="WDd-PI-tPQ" secondAttribute="bottom" constant="34.5" id="d0Z-Lu-Esz"/>
+                            <constraint firstItem="WDd-PI-tPQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="es7-8A-oZL"/>
+                            <constraint firstItem="o6k-20-WnL" firstAttribute="top" secondItem="WDd-PI-tPQ" secondAttribute="bottom" constant="-21.5" id="hjM-2C-Cnj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6As-GZ-9g8" secondAttribute="bottom" constant="17" id="rdt-rK-86j"/>
+                            <constraint firstItem="XSN-OS-ha7" firstAttribute="centerX" secondItem="6As-GZ-9g8" secondAttribute="centerX" id="zhh-oE-vRD"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="Busqueda" destination="XSN-OS-ha7" id="8tQ-5b-jtQ"/>
+                        <outlet property="Resultado" destination="6As-GZ-9g8" id="J7E-pw-nSH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="101.78571428571428"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Image" width="410" height="229.5"/>
+    </resources>
 </document>
